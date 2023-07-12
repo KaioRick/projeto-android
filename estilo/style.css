@@ -11,7 +11,7 @@
 }
 *{
     margin: 0px;
-    padding: 0px;
+    
 }
 body{
     margin: 0px;
@@ -28,7 +28,7 @@ p {
 }
 header{
     margin: 0px;
-    padding: 10px;
+    padding: 8px;
     background-image: linear-gradient(to bottom,#38C979,#299257,#1D683E);
 }
 header > h1 {
@@ -73,11 +73,12 @@ nav > a:hover{
     border-radius: 10px 10px 0px 0px;
     border: 2px solid #1D683E;
 }
+
 #seone{
     display: block;
     margin: auto;
     max-width: 1000px;
-    min-width: 350px;
+    min-width: 250px;
     background-color: white;
     box-shadow: 1px 1px 8px black;
     border-radius: 0px 0px 5px 5px;
@@ -159,16 +160,17 @@ aside > h3{
 }
 
 footer{
-    text-align: center;
     display: block;
-    margin-top: 50px;
     max-width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin-top: 50px;
     background-color: #054922;
 }
 footer > p{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: 10px;
+    padding: 5px 0px;
     color: #82D9A0;
     text-align: center;
     font-weight: bold;
