@@ -1,6 +1,7 @@
 @charset "UTF-8";
+
 @font-face {
-    font-family: 'idroid';
+    font-family: '._idroid';
     src: url(/fontes/idroid.otf) format('opentype');
 }
 
@@ -97,7 +98,7 @@ main > h1 {
     color: #054922;
     padding-top: 10px;
     margin: 0px 20px;
-    font-family: 'idroid';
+    font-family: '._idroid';
     font-size: 18px;
 }
 
