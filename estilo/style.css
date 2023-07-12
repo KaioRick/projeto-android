@@ -27,6 +27,7 @@ p {
    line-height: 20px;
 }
 header{
+    margin: 0px;
     padding: 10px;
     background-image: linear-gradient(to bottom,#38C979,#299257,#1D683E);
 }
