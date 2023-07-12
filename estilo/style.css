@@ -162,7 +162,7 @@ aside > h3{
 
 footer{
     display: block;
-    max-width: 980px;
+    max-width: 100%;
     min-width: 120px;
     padding: 0px;
     text-align: center;
