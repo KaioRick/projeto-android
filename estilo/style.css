@@ -46,18 +46,17 @@ header > p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 13pt;
     text-align: center;
-    margin: 20px 20px;
-    padding: 5px;
+    padding-bottom: 20px;
     color: rgba(240, 240, 240, 0.849);
 
 }
 nav{
     max-width: 980px;
     min-width: 120px;
-    padding: 5px;
+    padding: 0px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.062);
 }
-nav > a{
+li > a{
     font-size: 12px;
     color: white;
     text-decoration: none;
@@ -67,13 +66,17 @@ nav > a{
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
 }
-nav > a:hover{
+li > a:hover{
     color: #38C979;
     background-color: #054922;
     border-radius: 10px 10px 0px 0px;
     border: 2px solid #1D683E;
 }
-
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px 2px;
+}
 #seone{
     display: block;
     margin: auto;
